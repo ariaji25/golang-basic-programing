@@ -4,13 +4,21 @@ import (
 	"example.com/ariaji25/learninggolang/webservice"
 )
 
-func main() {
-	// polindrom.PolindromNumber("99 100")
-	// fmt.Println()
-	// librarymanager.LibrayManager("3A13 5X19 9Y20 2C18 1N20 3N20 1M21 1F14 9A21 3N21 0E13 5G14 8A23 9E22 3N14")
-	// fmt.Println()
-	// lostnumber.LostNumber("12356789")
+/* Basic Golang Programming.
+We created go programs to resolve some case.
+case 1 :
+	Count polindrom numbers between two range of numbers. Polindrom numbers mostly like string polindrom, if read the number from left or right it alwasy be the same number.
+case 2 :
+	Shorting books in a Library, the Books will sorted by it categorie and by it size in the same categories.  Maximum 2 copies of the same books in the same bookshelf.
+case 3 :
+	Find a lost number from a list of sorted numbers.
+case 4 :
+	Create a web service for run among the cases above.
+case 3 :
+	Create a Docker service for the web service.
+*/
 
+func main() {
 	// Run A Go Web Service
 	webservice.WebService()
 }

@@ -53,7 +53,7 @@
 
 ## CASE 4 : DOCKER SERVICE
   Create a docker service to deploy the web service to docker. First we create the Dockerfile to config the building method to create docker image for web service.
-  And then create docker-compose.yml to manage the docker service. <br?>
+  And then create docker-compose.yml to manage the docker service. <br>
   command : <br/>
   #### docker-compose up
   the command function is to build and deploy our docker service to docker container

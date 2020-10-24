@@ -14,7 +14,7 @@
   Input : 1 10<br/>
   Output : 9<br/>
 
-## CASE 1 : MANGE LIBRARY 
+## CASE 1 : MANAGE LIBRARY 
   This case is about how to amange books in a bookshelft at a library. The books have a code, the first index in code is the book category, the second index of
   code is the book name (First Character of Book Name), and the rest of code is the book size. In the a bookshelft, the books will sorted by it categoies, and then
   books in the same categories will sorted by it size ( Descending), size of books is greater equal to 13 cm and less equal to 14 cm. At a bookshelft, just allowed 2 same books. Two books is same if the books is in the same category and has the same name. 

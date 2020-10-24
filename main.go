@@ -1,8 +1,6 @@
 package main
 
-import (
-	"example.com/ariaji25/learninggolang/webservice"
-)
+import "example.com/ariaji25/learninggolang/webservice"
 
 /* Basic Golang Programming.
 We created go programs to resolve some case.

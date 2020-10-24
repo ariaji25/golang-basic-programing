@@ -36,12 +36,27 @@
   Output : 0E13 9E22 9A21 9Y20 8A23 1M21 1N20 1F14 2C18 5X19 5G14 3N21 3N20 3A13
 
 ## CASE 2 : LOST NUMBER
-  This case ia about find a lost number from a given string that contain a sorted list of numbers without sperators. 
+  This case is about find a lost number from a given string that contain a sorted list of numbers without sperators. 
   The minimum numbers in list is 1 and the maximum numbers in list is 10^6. Minimum total of numbers in list is 3 and maximum total of numbers is 1000.
   <br/>
   Example.<br/>
   Input : 134<br/>
   Output : 2<br/>
+
+## CASE 3 : CREATE WEB SERVICE
+  This case is about create a web service for program of (case 0 or case 1 or case 2).<br/>
+  In this case we use the case 2 as the function of web service. Available method is GET and POST
+  <br/>
+  command with curl "curl -X POST http://localhost:8000/?{numbers=[sorted_list_of_numbers]}"<br/>
+  example : <br/>
+  curl -X POST http://localhost:8000/?numbers=1235 <br/>
+
+## CASE 4 : DOCKER SERVICE
+  Create a docker service to deploy the web service to docker. First we create the Dockerfile to config the building method to create docker image for web service.
+  And then create docker-compose.yml to manage the docker service. <br?>
+  command : <br/>
+  #### docker-compose up
+  the command function is to build and deploy our docker service to docker container
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
